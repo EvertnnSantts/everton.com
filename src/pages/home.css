@@ -1,0 +1,30 @@
+.home{
+    background: rgba(255, 204, 0, 1);
+    width: 100vw;
+    height: 100vh;
+}
+
+.TitleORG{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#title{
+    font-size: 60px;
+     width: 900px;
+     height: 150px;
+     display: flex;
+     text-align: center;
+}
+
+#subtitle{
+    font-size: 15px;
+    width: 700px;
+    height: 300px;
+    color: white;
+    display: flex;
+    text-align: center;
+}
