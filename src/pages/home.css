@@ -20,11 +20,15 @@
      text-align: center;
 }
 
-#subtitle{
-    font-size: 15px;
-    width: 700px;
-    height: 300px;
-    color: white;
+.redes{
+    width: 900px;
+    height: 70px;
     display: flex;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+img{
+    cursor: pointer;
 }

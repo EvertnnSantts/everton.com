@@ -1,15 +1,20 @@
 import "../pages/home.css";
 import MenuPrinciapal from "../components/MenuPrincipal";
+//img
+import github from "../assets/placa-do-github (1).png";
+import linkedin from "../assets/linkedin__1_-removebg-preview 1 (3).png";
+import instagram from "../assets/instagram (3) (1).png";
 function home(){
     return(
       <section className="home">
         <MenuPrinciapal/>
-        <div className="redes">
-          
-        </div>
         <section className="TitleORG">
         <h1 id="title">Olá, sou Everton, um desenvolvedor Back End.</h1>
-        <h2 id="subtitle">Hello, I am Everton👋 Sou desenvolvedor de Software e Analista de Sistemas, com uma sólida experiência em desenvolvimento Back End. Tenho trabalhado em projetos pessoais e freelancing, entregando soluções de alta qualidade aos meus clientes.</h2>
+        <div className="redes"> 
+          <img src = {github} />
+          <img src = {linkedin} />
+          <img src = {instagram} />
+        </div>
         </section>
       </section>
     );
