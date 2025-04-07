@@ -1,9 +1,9 @@
 .home{
     background: rgba(255, 204, 0, 1);
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
+    position: relative;
 }
-
 .TitleORG{
     width: 100vw;
     height: 80vh;
@@ -31,4 +31,18 @@
 
 img{
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .home{
+        height: 900px;
+    }
+    #title{
+     font-size: 40px;
+     width: 400px;
+    }
+
+    #logorede{
+        height: 32px;
+    }
 }

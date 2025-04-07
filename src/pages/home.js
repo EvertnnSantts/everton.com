@@ -11,9 +11,9 @@ function home(){
         <section className="TitleORG">
         <h1 id="title">Olá, sou Everton, um desenvolvedor Back End.</h1>
         <div className="redes"> 
-          <img src = {github} />
-          <img src = {linkedin} />
-          <img src = {instagram} />
+          <img id="logorede" src = {github} />
+          <img id="logorede" src = {linkedin} />
+          <img id="logorede" src = {instagram} />
         </div>
         </section>
       </section>

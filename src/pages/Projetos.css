@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+.projetos{
+    width: 100vw;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: rgba(255, 204, 0, 1);
+}
+
+.MyProjetos{
+    height: 100%; 
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Card{
+    width: 660px;
+    height: 250px;
+    background: rgba(234, 227, 227, 1);
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.233);
+}
+
+.Banner{
+   width: 220px;
+   height: 200px;
+   border-radius: 10px;
+   background: rebeccapurple;
+}
+
+.textORG{
+   display: flex;
+   flex-direction: column;
+   width: 400px;
+   height: 200px;
+}
+
+.OrgCabeçalho{
+    width: 400px;
+    height: 50px;
+    position: relative;
+}
+
+.Descricao{
+    width: 400px;
+    height: 150px;
+}
+
+#githubIMG{
+   position: absolute;
+   right: 10px;
+   top: 0px;
+   width: 32px;
+   height: 32px;
+}
+
+h3{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+}
+
+.aboutORG{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttonORG{
+    width: 550px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#buttoncotantINS{
+    width: 125px;
+    height: 30px;
+    font-family: "Pixelify Sans", sans-serif;  font-style: normal;
+    font-size: 13px;
+    border: none;
+    color: white;
+    background: rgba(104, 5, 113, 1);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.233);
+}
+
+#buttoncotantLIN{
+    width: 125px;
+    height: 30px;
+    font-family: "Pixelify Sans", sans-serif;  
+    font-style: normal;
+    font-size: 13px;
+    border: none;
+    color: white;
+    background: rgba(59, 114, 255, 1);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.233);
+}
+
+#buttoncotantGIT{
+    width: 125px;
+    height: 30px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    border: none; 
+    color: white;
+    background: rgba(56, 56, 55, 1);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.233);
+}
+
+#buttoncotantGMAIL{
+    width: 125px;
+    height: 30px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    border: none;
+    color: white;
+    background: rgba(255, 111, 59, 1);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.233);
+}
+
+.about{
+  width: 550px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#titleabout{
+    font-family: "Pixelify Sans", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    width: 550px;
+}
+#textabout{
+    font-family: "Pixelify Sans", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: rgba(56, 56, 55, 1);
+    width: 550px;
+}
+
+.FAQ{
+    width: 550px;
+    height: 450px;
+}
+
+.faq-container {
+    background-color: #ffcc00;
+    padding: 24px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 8px;
+    font-family: "Pixelify Sans", sans-serif;
+    color: #000;
+  }
+  
+  .faq-title {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+    font-family: "Pixelify Sans", sans-serif;
+  }
+  
+  .faq-question {
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left; 
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 4px 0;
+  }
+  
+  .faq-answer {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .arrow {
+    margin-left: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .projetos{
+     height: 1550px;
+     flex-direction: column;;
+    }
+    .Card{
+        width: 350px;
+        height: 250px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Banner{
+        display: none;
+    }
+
+    .Descricao{
+        width: 340px;
+        margin-left: 5px;
+    }
+    
+    .OrgCabeçalho{
+        width: 350px;
+        margin-left: 5px;
+    }    
+
+    h3{
+        font-size: 10px;
+    }
+
+    .buttonORG {
+        display: none;
+      }
+
+      .about{
+        height: 250px;
+      }
+
+      #textabout{
+        width: 350px;
+        height: 500px;
+      }
+
+      .FAQ{
+        width: 350px;
+        height: 300px;
+    }
+
+   .Skills{
+      margin-left: 5px;
+    }
+    
+}
