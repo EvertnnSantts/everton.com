@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 
+/* Box sizing global para evitar overflow */
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: rgba(255, 204, 0, 1);
     font-family: "Pixelify Sans", sans-serif;
     margin: 0;
+    overflow-x: hidden; /* Evita scroll horizontal */
 }
 
 h1 {
@@ -30,7 +36,6 @@ h1 {
     right: 0;
     z-index: 1000;
     background: rgba(255, 204, 0, 1);
-    box-sizing: border-box;
 }
 
 .menu-toggle {
@@ -93,11 +98,11 @@ a:hover {
 /* MOBILE */
 @media (max-width: 768px) {
     .menu-toggle {
-        display:flex;
-        border: none;
-        justify-content: end;
+        display: flex;
+        justify-content: flex-end;
         font-size: 30px;
-      }
+        border: none;
+    }
 
     .nav-menu {
         display: none;
@@ -106,17 +111,21 @@ a:hover {
         position: absolute;
         top: 100px;
         left: 0;
+        width: 100%;
         background: rgba(255, 204, 0, 1);
-        padding: 20px 30px; 
-        gap: 20px; 
+        padding: 20px 30px;
+        gap: 20px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         z-index: 1000;
     }
 
     .nav-menu.open {
         display: flex;
-        width: 100%;
-        height: 100px;
+        height: 100px; 
+    }
+
+    .nav-logo {
+        width: 150px; 
     }
 
     .menu-item {
