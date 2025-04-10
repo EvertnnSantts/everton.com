@@ -3,6 +3,8 @@
 body {
     background: rgba(255, 204, 0, 1);
     font-family: "Pixelify Sans", sans-serif;
+    margin: 0;
+    overflow: hidden;
 }
 
 h1 {
@@ -34,14 +36,17 @@ h1 {
 
 .menu-toggle {
     display: none;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
 }
 
 a {
     text-decoration: none;
     font-family: "Pixelify Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 500;
-    font-style: normal;
     color: #000000;
     font-size: 20px;
     cursor: pointer;
@@ -55,83 +60,65 @@ a:hover {
 #Button-link {
     width: 230px;
     height: 50px;
-    border: none;
     border: 3px solid black;
     background: rgba(217, 217, 217, 1);
     color: rgb(0, 0, 0);
     font-family: "Pixelify Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 500;
-    font-style: normal;
     font-size: 20px;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .nav-logo {
-    width: 400px;
+    width: 300px;
     height: 100%;
-    cursor: pointer;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .nav-menu {
-    width: 760px;
-    height: 100%;
-    gap: 15px;
     display: flex;
-    justify-content: center;
+    gap: 15px;
     align-items: center;
+    justify-content: center;
 }
 
 .nav-button {
-    width: 400px;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-/* Estilo para telas menores */
+/* MOBILE */
 @media (max-width: 768px) {
-    .header-nav {
-        flex-direction: column;
-        align-items: flex-start;
-        height: auto;
-        padding: 10px 20px;
-    }
-
-    .nav-logo {
-        width: 100%;
-        justify-content: space-between;
+    .menu-toggle {
+        display: block;
     }
 
     .nav-menu {
-        width: 100%;
         display: none;
         flex-direction: column;
-        background-color: rgba(255, 204, 0, 1);
-        padding: 10px 0;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        z-index: 1000;
         align-items: flex-start;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        background: rgba(255, 204, 0, 1);
+        padding: 20px 30px; 
+        gap: 20px; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 999;
     }
 
     .nav-menu.open {
         display: flex;
     }
 
-    .menu-toggle {
-        display: flex;
-        border: none;
-        background: none;
-        font-size: 30px;
-        cursor: pointer;
-    }
-
     .menu-item {
-        margin-left: 25px;
+        width: 100%;
+        text-align: left;
     }
 
     .nav-button {
