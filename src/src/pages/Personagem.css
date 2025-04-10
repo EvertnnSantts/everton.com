@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+.Personagem{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 204, 0, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Mypersonagem{
+   width: 50%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+#namepersonagem{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    background: rgba(0, 0, 0, 0.164);
+    color: white;
+}
+
+.especialORG{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#especial1, #especial2, #especial3, #especial4{
+     width: 85px;
+     height: 75px;
+     border: 3px solid black;
+     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.233);
+     cursor: pointer;
+}
+
+.aboutPER{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.skills{
+    width: 500px;
+    height: 80px;
+    border: 3px solid black;
+    background: rgba(217, 217, 217, 1);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.233);
+    display: flex;
+    flex-direction: column;
+}
+
+.story{
+    width: 500px;
+    height: 330px;
+    border: 3px solid black;
+    background: rgba(217, 217, 217, 1);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.233);
+}
+
+.visuis{
+    width: 500px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#skin1, #skin2{
+    width: 150px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    background: rgba(217, 217, 217, 1);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.233);
+}
+
+#skin3{
+    width: 200px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    background: rgba(217, 217, 217, 1);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.233);
+}
+
+#titleskills{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    color: rgba(72, 3, 79, 1);
+    width: 95px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#habilidade{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titlestory{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 22px;
+    color: rgba(72, 3, 79, 1);
+    width: 95px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#aboutP{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+
+@media (max-width: 768px) {
+    .Personagem{
+        height: 1000px;
+        flex-direction: column;
+    }
+
+    .Mypersonagem{
+      width: 400px;
+      height: 500px;
+     } 
+
+    .aboutPER{
+     height: 500px;
+     width: 400px;
+    }
+
+    #evertonprimeIMG{
+      height: 300px;
+    }
+
+    #habilidade{
+        width: 300px;
+    }
+    
+    #especial1, #especial2, #especial3, #especial4{
+        width: 65px;
+        height: 55px;
+   }
+
+   .skills{
+    width: 350px;
+   }
+
+   .story{
+    width: 350px;
+    height: 230px;
+    }
+
+    #aboutP{
+    width: 330px;
+    }
+
+    #everton1, #everton2, #everton3{
+      height: 100px;
+    }
+
+    #skin1, #skin2{
+        width: 90px;
+        height: 150px;
+        display: flex;
+    }
+    
+    #skin3{
+        width: 140px;
+        height: 150px;
+    }
+}

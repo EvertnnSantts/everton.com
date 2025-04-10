@@ -1,10 +1,9 @@
 .home{
-    background: rgba(255, 204, 0, 1);
+    background: rgb(230, 189, 25);
     width: 100vw;
-    height: 100dvh;
-    position: relative;
-    overflow: hidden;
+    height: 100vh;
 }
+
 .TitleORG{
     width: 100vw;
     height: 80vh;
@@ -19,6 +18,7 @@
      height: 150px;
      display: flex;
      text-align: center;
+     color: rgb(44, 7, 51);
 }
 
 .redes{
@@ -36,7 +36,7 @@ img{
 
 @media (max-width: 768px) {
     .home{
-        height: 900px;
+        height: 100px;
     }
     #title{
      font-size: 40px;

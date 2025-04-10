@@ -81,6 +81,9 @@
     bottom: 0px;
 }
 
+a{
+    text-decoration: none;
+}
 
 @media (max-width: 768px) {
     .Footer{
