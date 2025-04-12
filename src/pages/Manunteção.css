@@ -1,0 +1,8 @@
+.manutencao{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(230, 189, 25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

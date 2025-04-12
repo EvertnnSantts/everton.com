@@ -151,4 +151,34 @@ a{
         width: 200px;
         height: 60px;
     }
+
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+    }
+    
+    .footer-conteneir{
+        width: 350px;
+        align-items:flex-start;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redesElimks{
+        width: 350px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .linksterms{
+        height: 100px;
+    }
+
+    .redess{
+        height: 100px;
+    }
 }

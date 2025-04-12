@@ -88,10 +88,10 @@ function Projetos() {
 
       <div className="aboutORG">
         <div className="buttonORG">
-          <a><button id="buttoncotantINS">Instagram</button></a>
-          <a><button id="buttoncotantLIN">LinkedIn</button></a>
-          <a><button id="buttoncotantGMAIL">Gmail</button></a>
-          <a><button id="buttoncotantGIT">GitHub</button></a>
+          <a href="https://www.instagram.com/evert.nn/"><button id="buttoncotantINS">Instagram</button></a>
+          <a href="https://www.linkedin.com/in/everton-ferreira-707b82317/"><button id="buttoncotantLIN">LinkedIn</button></a>
+          <a href=""><button id="buttoncotantGMAIL">Gmail</button></a>
+          <a href="https://github.com/EvertnnSantts"><button id="buttoncotantGIT">GitHub</button></a>
         </div>
 
         <div className="about">
