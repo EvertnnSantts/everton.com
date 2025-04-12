@@ -37,6 +37,8 @@
 }
 
 #fechar{
+    width: 20px;
+    height: 30px;
     font-family: "Pixelify Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -74,17 +76,62 @@
 }
 
 .footer{
-    border-top: 2px solid black;
     height: 330px;
     width: 100vw;
     position: absolute;
     bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
 a{
     text-decoration: none;
 }
 
+#namesite{
+   font-size: 45px;
+   color: rgb(255, 255, 255);
+}
+
+#descricaome{
+    font-size: 15px;
+    color: white;
+}
+
+.footer-conteneir{
+    width: 800px;
+    height: 100%;
+}
+
+.redesElimks{
+    width: 800px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 100px;
+    flex-direction: row;
+}
+
+.imgorg{
+    display: flex;
+    gap: 10px;
+}
+.redess{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+#namelegal, #namesocial{
+    font-size: 30px;
+    color: white; 
+}
+#nameterms{
+    font-size: 20px;
+    color: white;
+}
 @media (max-width: 768px) {
     .Footer{
         height: 800px;

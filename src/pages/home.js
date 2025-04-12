@@ -12,9 +12,10 @@ function Home(){
         <section className="TitleORG">
         <h1 id="title">Olá, sou Everton, um desenvolvedor Back End.</h1>
         <div className="redes"> 
-          <img id="logorede" src = {github} />
-          <img id="logorede" src = {linkedin} />
-          <img id="logorede" src = {instagram} />
+
+          <a href="https://github.com/EvertnnSantts"><img id="logorede" src = {github}/></a>
+          <a href="https://www.instagram.com/evert.nn/"><img id="logorede" src = {instagram} /></a>
+          <a href="https://www.linkedin.com/in/everton-ferreira-707b82317/"><img id="logorede" src = {linkedin}/></a>
         </div>
         </section>
       </section>

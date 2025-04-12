@@ -1,6 +1,9 @@
 import { useState } from "react";
 import "../pages/Projetos.css";
 import github from "../assets/placa-do-github (1).png";
+import bibliocotrole from "../assets/bibliocotrole.png";
+import cadastroapp from "../assets/cadastroapp.png";
+import pandherr from "../assets/pandhher.jpeg";
 
 const faqs = [
   {
@@ -29,11 +32,11 @@ function Projetos() {
       <div className="MyProjetos">
         
         <div className="Card">
-          <div className="Banner"></div>
+          <div className="Banner"><a href="https://github.com/EvertnnSantts/BiblioControle" ><img id="imgbanner" src={bibliocotrole}/></a></div>
           <div className="textORG">
             <div className="OrgCabeçalho">
               <h1>BiblioControle</h1> 
-              <img id="githubIMG" src={github} alt="GitHub" />
+              <a href="https://github.com/EvertnnSantts/BiblioControle"><img id="githubIMG" src={github} alt="GitHub" /></a>
             </div>
             <div className="Descricao">
               <h3>
@@ -47,11 +50,11 @@ function Projetos() {
         </div>
 
         <div className="Card">
-          <div className="Banner"></div>
+          <div className="Banner"><div className="Banner"><a href="https://github.com/EvertnnSantts/pandherr"><img id="imgbanner" src={pandherr}/></a></div></div>
           <div className="textORG">
             <div className="OrgCabeçalho">
               <h1>Pandherr</h1>
-              <img id="githubIMG" src={github} alt="GitHub" />
+              <a href="https://github.com/EvertnnSantts/pandherr"><img id="githubIMG" src={github} alt="GitHub" /></a>
             </div>
             <div className="Descricao">
               <h3>
@@ -65,11 +68,11 @@ function Projetos() {
         </div>
 
         <div className="Card">
-          <div className="Banner"></div>
+          <div className="Banner"><a href="https://github.com/EvertnnSantts/SistemaLogin"><img id="imgbanner" src={cadastroapp}/></a></div>
           <div className="textORG">
             <div className="OrgCabeçalho">
               <h1>SistemaLogin</h1> 
-              <img id="githubIMG" src={github} alt="GitHub" />
+              <a href="https://github.com/EvertnnSantts/SistemaLogin"><img id="githubIMG" src={github} alt="GitHub" /></a>
             </div>
             <div className="Descricao">
               <h3>

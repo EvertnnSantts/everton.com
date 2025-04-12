@@ -21,7 +21,7 @@ function Menu() {
           <a href="#our-team" className="menu-item">Contato</a>
         </div>
         <div className="nav-button">
-          <a href="https://cal.com/evertnnsantts/evortonsantts"><button id="Button-link">Book a call</button></a>
+          <a href="https://cal.com/evertnnsantts/evortonsantts"><button id="Button-link">Fale comigo</button></a>
         </div>
       </nav>
     </header>
