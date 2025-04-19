@@ -43,9 +43,6 @@ function Projetos() {
                 BiblioControle é um sistema de gerenciamento de bibliotecas desenvolvido com JavaScript, Express.js e MySQL. Ele permite o cadastro de usuários e livros, gerencia empréstimos e devoluções, organiza o acervo, registra dados dos usuários, verifica a disponibilidade dos livros e mantém um histórico de empréstimos.
               </h3>
             </div>
-            <div className="Skills">
-              <h3>JavaScript, NodeJS, ExpressJS, ElectronJS, HTML, EJS, CSS</h3>
-            </div>
           </div>
         </div>
 
@@ -61,9 +58,6 @@ function Projetos() {
                 A Pandherr é uma aplicação front-end desenvolvida com tecnologias modernas para oferecer uma experiência interativa e intuitiva. Construída com foco em desempenho e usabilidade, a plataforma utiliza React.js para criar uma interface dinâmica, garantindo uma navegação fluida e responsiva.
               </h3>
             </div>
-            <div className="Skills">
-              <h3>ReactJs, CSS</h3>
-            </div>
           </div>
         </div>
 
@@ -76,11 +70,8 @@ function Projetos() {
             </div>
             <div className="Descricao">
               <h3>
-                "SistemaLogin" é um sistema básico de autenticação que utiliza Express.js como backend e React.js como frontend. Ele foi desenvolvido para fornecer uma solução simples e eficiente para gerenciamento de login e autenticação de usuários. O backend, construído com Node.js e Express, gerencia as requisições, autenticação e persistência dos dados.
+                "SistemaLogin" é um sistema básico de autenticação que utiliza Express.js como backend e React.js como frontend. Ele foi desenvolvido para fornecer uma solução simples e eficiente para gerenciamento de login e autenticação de usuários.
               </h3>
-            </div>
-            <div className="Skills">
-              <h3>NodeJs, ExpressJs, ReactJs, CSS</h3>
             </div>
           </div>
         </div>

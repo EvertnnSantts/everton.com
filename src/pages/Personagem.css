@@ -148,6 +148,7 @@
     align-items: center;
     justify-content: center;
     margin-left: 15px;
+    font-size: 15px;
 }
 
 .imagem-principal {
@@ -221,6 +222,7 @@
 
     #aboutP{
     width: 330px;
+    font-size: 10px;
     }
 
     #everton1, #everton2, #everton3{

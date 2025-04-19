@@ -8,7 +8,7 @@ function Footer() {
       <div className="janela">
         <button id="fechar">X</button>
         <h1 id="titlejanela">QUER SABER MAIS DA MINHA HISTÓRIA?</h1>
-        <a href="#contato">
+        <a href="https://cal.com/evertnnsantts/evortonsantts">
           <button id="buttoncontato">FALE COMIGO</button>
         </a>
       </div>

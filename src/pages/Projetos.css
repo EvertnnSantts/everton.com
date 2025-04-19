@@ -73,7 +73,7 @@ h3{
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 13px;
+    font-size: 17px;
 }
 
 .aboutORG{
@@ -158,14 +158,14 @@ h3{
 #titleabout{
     font-family: "Pixelify Sans", sans-serif;
     font-style: normal;
-    font-size: 18px;
+    font-size: 23px;
     color: rgb(0, 0, 0);
     width: 550px;
 }
 #textabout{
     font-family: "Pixelify Sans", sans-serif;
     font-style: normal;
-    font-size: 15px;
+    font-size: 20px;
     color: rgba(56, 56, 55, 1);
     width: 550px;
 }
@@ -189,7 +189,7 @@ h3{
     margin-bottom: 16px;
     font-weight: 500;
     font-family: "Pixelify Sans", sans-serif;
-    font-size: 18px;
+    font-size: 23px;
     color: rgb(0, 0, 0);
   }
   
@@ -205,7 +205,7 @@ h3{
     width: 100%;
     text-align: left; 
     font-family: "Pixelify Sans", sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     display: flex;
     justify-content: space-between;
@@ -215,7 +215,7 @@ h3{
   
   .faq-answer {
     margin-top: 8px;
-    font-size: 14px;
+    font-size: 20px;
     color: #333;
   }
   
@@ -254,7 +254,7 @@ h3{
     }    
 
     h3{
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .buttonORG {
@@ -268,6 +268,7 @@ h3{
       #textabout{
         width: 350px;
         height: 500px;
+        font-size: 15px;
       }
 
       .FAQ{
